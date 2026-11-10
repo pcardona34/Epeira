@@ -11,6 +11,8 @@ Read [LICENSE](./LICENSE) in the root directory.
 
 This is a **GNUstep Web Browser** and **Service**. Its name comes from a latin word to name a common spider species.
 
+![Epeira Web Browser](Screenshots/2026-10-10-Epeira.png)
+
 The Web window is an X embedded [Surf](https://suckless.org/Surf) browser instance, which provides a complete **Gtk-WebKit Engine**. It is displayed within the GNUstep application thanks to a *Helper*:  `epeira_socket`.
 
 > [!WARNING]
@@ -38,6 +40,13 @@ see by example [Agnostep Desktop](https://github.com/pcardona34/agnostep-desktop
 - **Surf** browser is provided by [Suckless dot Org](https://suckless.org/Surf).
 - `HelpViewer.app` to display the Help content.
 - New `Pass.app` release to get the **password management** service (to be done).
+
+# Localization
+
+Epeira has been localized in:
+
+- English (default)
+- French.
 
 # Install
 
