@@ -11,7 +11,7 @@ Read [LICENSE](./LICENSE) in the root directory.
 
 This is a **GNUstep Web Browser** and **Service**. Its name comes from a latin word to name a common spider species.
 
-![Epeira Web Browser](Screenshots/2026-10-10-Epeira.png)
+![Epeira Web Browser](Screenshots/2026-11-10-Epeira.png)
 
 The Web window is an X embedded [Surf](https://suckless.org/Surf) browser instance, which provides a complete **Gtk-WebKit Engine**. It is displayed within the GNUstep application thanks to a *Helper*:  `epeira_socket`.
 
@@ -57,6 +57,8 @@ You must have superuser privileges to type your password when asked.
 Execute:
 
 ```console
+git clone https://github.com/pcardona34/Epeira.git
+cd Epeira
 bash ./install.sh
 ```
 
