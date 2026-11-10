@@ -1,5 +1,5 @@
 ####################################################
-### A G N o S t e p  -  Desktop
+### AGNoStep  -  Apps
 ### (c) 2026 - Patrick Cardona
 ### Author: Patrick Cardona
 ###
@@ -25,14 +25,14 @@ include $(GNUSTEP_MAKEFILES)/common.make
 VERSION = 0.1
 PACKAGE_NAME = Epeira
 APP_NAME = Epeira
-Epeira_APPLICATION_ICON = Epeira.png
+Epeira_APPLICATION_ICON = Epeira.tiff
 
 #
 # Resource files
 #
 Epeira_RESOURCE_FILES = \
 Resources/Info-gnustep.plist \
-Resources/Epeira.png \
+Resources/Epeira.tiff \
 Resources/Search.tiff \
 Resources/FileIcon_url.tiff \
 Resources/FileIcon_.html.tiff \

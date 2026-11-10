@@ -2,7 +2,7 @@
     ApplicationDescription = "A GNUstep Web Browser";
     ApplicationName = Epeira;
     ApplicationRelease = "0.1";
-	 ApplicationIcon = "Epeira.png";
+	 ApplicationIcon = "Epeira.tiff";
     Authors = (
 	"Patrick CARDONA"
     );
@@ -13,7 +13,7 @@
     NSExecutable = Epeira;
     NSPrincipalClass = NSApplication;
     NSRole = Application;
-	 NSIcon = "Epeira.png";
+	 NSIcon = "Epeira.tiff";
 	 GSHelpContentsFile = "Epeira.help";
 	 CFBundleURLTypes = (
   		{
