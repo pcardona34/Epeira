@@ -1,0 +1,27 @@
+/* TRANSLATORS: Make sure to quote all translated strings if
+   they contain spaces or non-ASCII characters.  */
+
+Quit = Quitter;
+Info = Informations;
+"Info Panel..." = "À propos...";
+"Help..." = "Aide...";
+"Favorites" = "Favoris";
+"Bookmark Current Page" = "Signet pour la page courante";
+"New Link" = "Nouveau lien";
+"Open" = "Ouvrir";
+"Set My HomePage" = "Définir la page d'accueil";
+"Set My SearchPage" = "Définir la page de recherche";
+"Search on the  Web" = "Chercher sur la Toile";
+"Home Page" = "Page d'accueil";
+"Zoom in" = "Agrandir";
+"Zoom out" = "Diminuer";
+"Toogle Dark Mode" = "Basculer le mode sombre";
+"Walk back" = "Précédent";
+"Walk forward" = "Suivant";
+"Search in this page" = "Chercher dans cette page";
+
+"Look" = "Apparence";
+"History" = "Historique";
+"Preferences..." = "Préférences...";
+
+

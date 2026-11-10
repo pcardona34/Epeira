@@ -1,0 +1,60 @@
+{
+    ApplicationDescription = "A GNUstep Web Browser";
+    ApplicationName = Epeira;
+    ApplicationRelease = "0.1";
+	 ApplicationIcon = "Epeira.png";
+    Authors = (
+	"Patrick CARDONA"
+    );
+    CFBundleIdentifier = "org.agnostep.Epeira";
+    Copyright = "Copyright (C) 2026 - An Agnostep Application";
+    CopyrightDescription = "Released under the MIT License. The GTK-WebKit embeded engine is provided by the Surf project (https://suckless.org)";
+    FullVersionID = "0.1.0";
+    NSExecutable = Epeira;
+    NSPrincipalClass = NSApplication;
+    NSRole = Application;
+	 NSIcon = "Epeira.png";
+	 GSHelpContentsFile = "Epeira.help";
+	 CFBundleURLTypes = (
+  		{
+			CFBundleURLName = "Web Site URL";
+			CFBundleURLSchemes = (
+		    	http,
+		   		https
+	    	);
+		}
+  	 );
+	NSServices = (
+    {
+      NSMenuItem = {
+		default = "Open URL with Epeira";
+		English = "Open URL with Epeira";
+		French = "Ouvrir l'URL dans Epeira";
+      };
+      NSPortName = Epeira;
+      NSMessage = openSelectedUrl;
+      NSSendTypes = (
+    	NSURLPboardType,
+		NSStringPboardType
+      );
+    }
+   );
+	 
+	NSTypes = (
+	{
+      NSHumanReadableName = HTML;
+      NSIcon = "FileIcon_.html.tiff";
+	   NSUnixExtensions = ( 
+		htm,
+		html 
+		);
+    },
+    {
+	   NSHumanReadableName = "Internet Shortcut";
+      NSIcon = "FileIcon_url.tiff";
+	   NSUnixExtensions = ( 
+    	url
+    	);
+	 }
+    );
+}

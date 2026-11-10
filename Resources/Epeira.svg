@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="48"
+   height="48"
+   version="1"
+   id="svg4"
+   sodipodi:docname="Epeira.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="15.166667"
+     inkscape:cx="24.098901"
+     inkscape:cy="23.999999"
+     inkscape:window-width="1108"
+     inkscape:window-height="932"
+     inkscape:window-x="22"
+     inkscape:window-y="44"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4" />
+  <g
+     id="g1"
+     transform="matrix(1,0,0,0.97587778,0,1.0854998)"
+     inkscape:export-filename="g1.png"
+     inkscape:export-xdpi="153.58635"
+     inkscape:export-ydpi="153.58635">
+    <rect
+       fill="#5db43e"
+       width="40"
+       height="40"
+       x="4"
+       y="4"
+       rx="20"
+       ry="20"
+       id="rect1"
+       style="fill:#c83737" />
+    <path
+       fill="#ffffff"
+       opacity="0.2"
+       d="M 24,4 C 12.92,4 4,12.92 4,24 4,24.168 3.996,24.333 4,24.5 4.2644,13.654 13.088,5 24,5 34.912,5 43.736,13.654 44,24.5 44.004,24.333 44,24.168 44,24 44,12.92 35.08,4 24,4 Z"
+       id="path1" />
+    <path
+       opacity="0.2"
+       d="M 4.0117,24.5 C 4.0076,24.667 4,24.832 4,25 4,36.08 12.92,45 24,45 35.08,45 44,36.08 44,25 44,24.832 43.992,24.667 43.988,24.5 43.724,35.346 34.912,44 24,44 13.088,44 4.276,35.346 4.012,24.5 Z"
+       id="path2" />
+    <path
+       opacity="0.2"
+       d="m 15,15 3.5,4 1.5,-1 -2,-2 2,-1 z m 13,0 2,1 -2,2 1.5,1 3.5,-4 z m -4,2 c -2.0462,0.0064 -4.5101,0.59613 -4.5,4.5 L 24,19 28.5,21.5 C 28.51,17.596 26.046,17.006 24,17 Z m -12,1 1.5,5 0.5,-2 3,0.5 1,-1.5 z m 24,0 -6,2 1,1.5 3,-0.5 0.5,2 z m -12,2.5 -2.5,1.5 0.5,2 1,-2 h 2 l 1,2 0.5,-2 z m -8,2.5 -7,2 4,2 V 25.5 L 15.5,25 Z m 4,0 -3,1 c 0.01967,2.5674 1.4587,5.1087 2.9062,6.2891 1.014,0.807 1.971,1.444 2.594,1.711 0.71531,0.26783 0.34543,-0.75111 0.5,-1 h 2 c 0.15457,0.24889 -0.21531,1.2678 0.5,1 0.62335,-0.26681 1.5802,-0.90357 2.5938,-1.7109 1.447,-1.18 2.886,-3.722 2.906,-6.289 l -3,-1 -1,3 h -2 l -1,-3 -1,3 h -2 l -1,-3 z m 12,0 0.5,2 2.5,0.5 V 27 l 4,-2 z m -16,4 -4,2 7,8 z m 16,0 -3,10 7,-8 z"
+       id="path3" />
+    <path
+       fill="#ffffff"
+       d="m 15,14 3.5,4 1.5,-1 -2,-2 2,-1 z m 13,0 2,1 -2,2 1.5,1 3.5,-4 z m -4,2 c -2.046,0.006 -4.51,0.596 -4.5,4.5 L 24,18 28.5,20.5 C 28.51,16.596 26.046,16.006 24,16 Z m -12,1 1.5,5 0.5,-2 3,0.5 1,-1.5 z m 24,0 -6,2 1,1.5 3,-0.5 0.5,2 z m -12,2.5 -2.5,1.5 0.5,2 1,-2 h 2 l 1,2 0.5,-2 z m -8,2.5 -7,2 4,2 V 24.5 L 15.5,24 Z m 4,0 -3,1 c 0.02,2.567 1.459,5.109 2.906,6.289 1.014,0.807 1.971,1.444 2.594,1.711 0.715,0.268 0.345,-0.751 0.5,-1 h 2 c 0.155,0.249 -0.215,1.268 0.5,1 0.623,-0.267 1.58,-0.904 2.594,-1.711 C 29.541,28.109 30.98,25.567 31,23 l -3,-1 -1,3 h -2 l -1,-3 -1,3 h -2 z m 12,0 0.5,2 2.5,0.5 V 26 l 4,-2 z m -16,4 -4,2 7,8 z m 16,0 -3,10 7,-8 z"
+       id="path4" />
+  </g>
+</svg>

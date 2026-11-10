@@ -1,0 +1,32 @@
+<document>
+
+<header>
+<title>Aide d'Epeira</title>
+</header>
+
+
+<plain name="Accueil">
+
+<section name="Introduction">
+Voici l'aide <b>d'Epeira</b>. Ce nom est issu d'un mot latin qui désigne une espèce commune d'araignée.
+<br>
+
+<information>
+<br>Cette Application est fournie au sein du projet d'applications Agnostep.
+<br>&copy; 2026 Patrick Cardona
+<br><url>https://github.com/pcardona34/agnostep-apps</url>
+<br>
+</information>
+</section>
+
+</plain>
+
+<chapter src="whatis.xlp" name="Qu'est-ce que Epeira ?"></chapter>
+<chapter src="internet.xlp" name="Que sont les Raccourcis Internet ?"></chapter>
+<chapter src="creating.xlp" name="Créer un nouveau lien"></chapter>
+<chapter src="modify.xlp" name="Modification d'un lien existant"></chapter>
+<chapter src="delete.xlp" name="Supression d'un lien existant"></chapter>
+<chapter src="search.xlp" name="Recherche sur la Toile"></chapter>
+<chapter src="history.xlp" name="Historique"></chapter>
+<chapter src="pass.xlp" name="Service de gestion des mots de passe"></chapter>
+</document>

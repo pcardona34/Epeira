@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE gsmarkup>
+<!-- Epeira.app: A Web Browser for GNUstep
+(c) 2026 - Patrick Cardona
+An Agnostep Desktop Application
+Under MIT License -->
+
+<gsmarkup>
+  
+  <objects>
+    <window title="Searching on the Web" id="searchWindow" delegate="#myDelegate">
+    
+      <view  width="460">
+      <vbox>
+        <box title="Searching">
+          <hbox>
+            <label>Key Word:</label> <textField id="motif" delegate="#NSOwner" width="300" />
+            <button title="Search" image="Search.tiff" action="searchMotif:" />
+          </hbox>
+        </box>
+      </vbox>
+      </view>
+    
+  </window>
+  </objects>
+  
+  <connectors>
+   <outlet source="#NSOwner" target="#searchWindow" key="searchWindow"/>
+   <outlet source="#NSOwner" target="#motif" key="motif"/>
+  </connectors>
+  
+</gsmarkup>

@@ -1,0 +1,9 @@
+/*  Epeira: UI localizable strings out of menus and windows */
+
+/* MyDelegate */
+
+"Path of Favorites not found!" = "Chemin des Favoris introuvable!";
+"You should have a Favorites folder in your Home Directory." = "Vous devriez créer un dossier des Favoris dans votre dossier personnel.";
+
+/* PreferencesController */
+

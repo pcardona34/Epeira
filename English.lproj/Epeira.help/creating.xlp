@@ -1,0 +1,13 @@
+<p>To create a new link (i.e., an Internet Shortcut) use the menu:  
+<em>Favorites/New Link</em>. Then, in the form:
+</p>
+
+<ol>
+<li>Type a name;
+<li>Type a valid URL begining with one scheme of "http://" or "https://" followed  by a canonical full qualified name.
+<li>Click on the "Save Link" button.
+</ol>
+
+<note>
+The new link will be saved with "name.url" filename in your Home Favorites Folder. 
+</note>

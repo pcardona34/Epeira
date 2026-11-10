@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE gsmarkup>
+<!-- Epeira.app: A Web Browser for GNUstep
+(c) 2026 - Patrick Cardona
+An Agnostep Desktop Application
+Under MIT License -->
+
+<gsmarkup>
+  
+  <objects>
+    <window title="Favorite" id="saveLinkWindow" delegate="#myDelegate">
+    
+      <view  width="500">
+      <vbox>
+      <vbox>
+         
+            <hbox>
+            <label selectable="no">Name:</label> 
+            <textField id="name" delegate="#NSOwner" width="450" nextKeyView="#link" />
+            </hbox>
+            <hbox>
+            <label selectable="no" >Link:</label>
+            <textField id="link" delegate="#NSOwner" width="450" nextKeyView="#name"/>
+            </hbox>
+       </vbox>
+         
+         <hbox halign="right">   
+            
+            <button title="Reset" id="resetButton" action="reset:" />
+            <button title="Save Link" id="saveButton" action="save:" />
+            <button title="Save and Browse" id="openLinkButton" action="saveAndOpenLink:" />
+            
+          </hbox>
+        
+      </vbox>
+      </view>
+    
+  </window>
+  </objects>
+  
+  <connectors>
+   <outlet source="#NSOwner" target="#saveLinkWindow" key="saveLinkWindow"/>
+   <outlet source="#NSOwner" target="#name" key="name"/>
+   <outlet source="#NSOwner" target="#link" key="link"/>
+   <outlet source="#NSOwner" target="#openLinkButton" key="openLinkButton"/>
+   <outlet source="#NSOwner" target="#saveButton" key="saveButton"/>
+   <outlet source="#NSOwner" target="#resetButton" key="resetButton"/>   
+  </connectors>
+  
+</gsmarkup>

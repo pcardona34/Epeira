@@ -1,0 +1,5 @@
+/* Localized Info Panel strings */
+
+ApplicationDescription = "A GNUstep Web Browser";
+Copyright = "Copyright (C) 2026 - An Agnostep Application";
+CopyrightDescription = "Released under the MIT License. The GTK-WebKit embeded engine is provided by the Surf (suckless.org) project";

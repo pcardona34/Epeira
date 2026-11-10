@@ -1,0 +1,12 @@
+{
+    "fsn_info_type" = <*I0>;
+    geometry = "866 83 450 350 0 0  1920 1080 ";
+    lastselection = (
+	"/home/patrick/SOURCES/agnostep-desktop/install/RESOURCES/APPS/SaveLink/French.lproj/SaveLink.help/delete.xlp"
+    );
+    shelfdicts = (
+    );
+    shelfheight = <*R77>;
+    singlenode = <*BN>;
+    viewtype = Browser;
+}

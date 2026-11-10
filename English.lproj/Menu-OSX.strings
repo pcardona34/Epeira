@@ -1,0 +1,24 @@
+/* TRANSLATORS: Make sure to quote all translated strings if
+   they contain spaces or non-ASCII characters.  */
+
+Quit = Quit;
+Info = Info;
+"Info Panel..." = "Info Panel...";
+"Help..." = "Help...";
+"Favorites" = "Favorites";
+"Bookmark Current Page" = "Signet pour la page courante";
+"New Link" = "New Link";
+"Open" = "Open";
+"Set My HomePage" = "Set My HomePage";
+"Set My SearchPage" = "Set My SearchPage";
+"Search on the  Web" = "Search on the  Web";
+"Home Page" = "Home Page";
+"Zoom in" = "Zoom in";
+"Zoom out" = "Zoom out";
+"Toogle Dark Mode" = "Toogle Dark Mode";
+"Walk back" = "Walk back";
+"Walk forward" = "Walk forward";
+"Search in this page" = "Search in this page";
+
+"Look" = "Look";
+"History" = "History";

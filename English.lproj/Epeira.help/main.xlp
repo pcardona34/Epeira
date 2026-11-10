@@ -1,0 +1,34 @@
+<document>
+
+<header>
+<title>Epeira Help</title>
+</header>
+
+
+<plain name="Root">
+
+<section name="Introduction">
+This is the Help of <b>Epeira</b>, a GNUstep Web Browser. This name is a Latin word for a common spider species.
+<br>
+
+<information>
+<br>
+This application is part of Agnostep Apps project.
+<br>&copy; 2026 Patrick Cardona
+<br><url>https://github.com/pcardona34/agnostep-apps</url>
+<br>
+</information>
+</section>
+
+</plain>
+
+<chapter src="whatis.xlp" name="What is Epeira?"></chapter>
+<chapter src="internet.xlp" name="What are Internet Shortcuts?"></chapter>
+<chapter src="creating.xlp" name="Creating a New Link"></chapter>
+<chapter src="modify.xlp" name="Modifying an existent Link"></chapter>
+<chapter src="delete.xlp" name="Deleting a Link"></chapter>
+<chapter src="search.xlp" name="Search on the Web"></chapter>
+<chapter src="history.xlp" name="History"></chapter>
+<chapter src="pass.xlp" name="Password Service"></chapter>
+
+</document>

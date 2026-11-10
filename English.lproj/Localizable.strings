@@ -1,0 +1,9 @@
+/*  Epeira: UI localizable strings out of menus and windows */
+
+/* MyDelegate */
+
+"Path of Favorites not found!" = "Path of Favorites not found!";
+"You should have a Favorites folder in your Home Directory." = "You should have a Favorites folder in your Home Directory.";
+
+/* PreferencesController */
+

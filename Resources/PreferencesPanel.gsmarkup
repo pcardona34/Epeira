@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE gsmarkup>
+<!-- Epeira.app: A Web Browser for GNUstep
+(c) 2026 - Patrick Cardona
+An Agnostep Desktop Application
+Under MIT License -->
+
+<gsmarkup>
+  
+  <objects>
+    <panel title="Preferences" id="preferencesPanel" visible="no" delegate="#NSOwner">
+    
+      <view  width="600">
+      <vbox>
+         
+            <hbox>
+            <label selectable="no">Favorite Folder Name:</label> 
+            <textField id="favoriteFolder" delegate="#NSOwner" width="450" />
+            </hbox>
+            
+       
+         
+         <hbox halign="right">   
+            
+            <button title="Cancel Preferences" id="cancelButton" action="cancelPreferences:" />
+            <button title="Save Preferences" id="saveButton" action="savePreferences:" />
+            
+            
+          </hbox>
+        
+      </vbox>
+      </view>
+    
+  </panel>
+  </objects>
+  
+  <connectors>
+   <outlet source="#NSOwner" target="#preferencesPanel" key="preferencesPanel"/>
+   <outlet source="#NSOwner" target="#favoriteFolder" key="favoriteFolder"/>
+   <outlet source="#NSOwner" target="#saveButton" key="saveButton"/>
+   <outlet source="#NSOwner" target="#cancelButton" key="cancelButton"/>
+  </connectors>
+  
+</gsmarkup>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE gsmarkup>
+<!-- Epeira.app: A Web Browser for GNUstep
+(c) 2026 - Patrick Cardona
+An Agnostep Desktop Application
+Under MIT License -->
+
+<gsmarkup>
+  <objects>
+    <menu type="main">
+      <menuItem title="Epeira">
+        <menu title="Epeira" type="apple">
+         <menuItem title="Quit" keyEquivalent="q" action="terminate:" />
+        </menu>
+      </menuItem>
+      <menuItem title="Info">
+        <menu title="Info" type="apple">
+          <menuItem title="Info Panel..." keyEquivalent="" action="orderFrontStandardInfoPanel:" />
+          <menuItem title="Preferences..." keyEquivalent="" action="openPreferences:" />
+          <menuItem title="Help..." keyEquivalent="" action="orderFrontHelpPanel:" />
+        </menu>
+        <menuItem title="Look">
+        <menu title="Look" type="apple">
+      		<menuItem title="Zoom in" keyEquivalent="" action="zoomIn:" />
+      	    <menuItem title="Zoom out" keyEquivalent="" action="zoomOut:" />
+      	    <menuItem title="Toogle Dark Mode" keyEquivalent="" action="toggleDarkMode:" />
+        </menu>
+        </menuItem>
+      <menuItem title="History">  
+      <menu title="History" type="apple">
+      	<menuItem title="Walk back" keyEquivalent="" action="goBack:" />
+      	<menuItem title="Walk forward" keyEquivalent="" action="goForward:" />
+      </menu>  
+      </menuItem>
+      <menuItem title="Favorites">
+      <menu title="Favorites" type="apple">
+      		<menuItem title="Bookmark Current Page" keyEquivalent="" action="bookmark:" />
+      		<menuItem title="New Link" keyEquivalent="" action="newLink:" />
+           <menuItem title="Open" keyEquivalent="" action="open:" />
+           <menuItem title="Set My HomePage" keyEquivalent="" action="setHomePage:" />
+           <menuItem title="Set My SearchPage" keyEquivalent="" action="setSearchPage:" />
+        </menu>
+    </menuItem>  
+    </menu>
+  </objects>
+</gsmarkup>

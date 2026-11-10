@@ -1,0 +1,17 @@
+Epeira is a GNUstep Web Browser.
+<br>
+
+It allows to:
+
+<ul>
+<li>Manage Internet ShortLinks: use, edit and add ones;</li>
+<li>Perform a Search by Key Words on the Web: the defaut SearchPage is provided  
+by Duckduckgo Search Engine.</li>
+</ul>
+
+It also provides a simplified kind of History.
+<br>
+Password management is provided with <b>Pass.app</b>.
+<br>
+<Under the hoods: it uses an xembeded Surf instance, which provides a  
+complete Gtk-WebKit engine.

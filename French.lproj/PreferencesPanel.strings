@@ -1,0 +1,6 @@
+/* French Localized strings for the Preferences Panel */
+
+"Preferences" = "Préférences";
+"Favorite Folder Name:" = "Nom dossier favori:";
+"Cancel Preferences" = "Annuler les Préférences";
+"Save Preferences" = "Enregistrer les Préférences";

@@ -1,0 +1,5 @@
+/* Localized Info Panel strings */
+
+ApplicationDescription = "Un Navigateur Internet pour GNUstep";
+Copyright = "Copyright (C) 2026 - Une application du projet Agnostep";
+CopyrightDescription = "Distribué sous la License MIT. Le moteur GTK-WebKit inclus provient du projet Surf (suckless.org).";
