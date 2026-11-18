@@ -7,7 +7,7 @@ Thanks for the GNUstep Developers Community.
 This is Free and Open Source software.
 Read [LICENSE](./LICENSE) in the root directory.
 
-# What is Epeira?
+## What is Epeira?
 
 This is a **GNUstep Web Browser** and **Service**. Its name comes from a latin word to name a common spider species.
 
@@ -31,7 +31,7 @@ You can also toggle to Dark mode and zoom in/out the page.
 > [!NOTE]
 > **Password management** will be provided with a service from the new `Pass.app` release (to be done).
 
-# Dependencies
+## Dependencies
 
 **Epeira** depends on:
 - A complete **GNUstep System**:  
@@ -41,30 +41,43 @@ see by example [Agnostep Desktop](https://github.com/pcardona34/agnostep-desktop
 - `HelpViewer.app` to display the Help content.
 - New `Pass.app` release to get the **password management** service (to be done).
 
-# Localization
+## Localization
 
 Epeira has been localized in:
 
 - English (default)
 - French.
 
-# Install
-
-It needs only a few minutes.
+## Install
 
 You must have superuser privileges to type your password when asked.
+
+### Install with AGNoStep Apps Manager (recommended)
+
+It needs only a few minutes with: run [AGNoStep Apps Manager](../../../agnostep-apps-manager) then:
+- Choose 'Category':  *agnostep-applications*
+- Choose 'Application': *Epeira*
+
+### Install by yourself
 
 Execute:
 
 ```console
 git clone https://github.com/pcardona34/Epeira.git
 cd Epeira
-bash ./install.sh
+```
+1. Check dependencies... (read above)
+2. Copy `Conf/surf_default.css` to `~/.surf/default.css`
+3. Copy with `sudo` all the scripts in `Scripts` to `/usr/local/bin`
+4. Build, than install with `sudo` the `Helper`.
+5. Build main application:
+
+```console
+make
+sudo -E make install
 ```
 
-This will fetch dependencies (until now, only on Debian Trixie), install Scripts and Conf, build and install the Helper and the Web Browser.
-
-# Using
+## Using
 
 ```console
 openapp Epeira
@@ -72,11 +85,11 @@ openapp Epeira
 
 Or run it from the `Applications` folder.
 
-# Using the Service
+## Using the Service
 
 - Select an URL;
 - From the menu, do: `Services/Open URL with Epeira`.
 
-# Help
+## Help
 
 Help is provided from `Info/Help...` menu.
